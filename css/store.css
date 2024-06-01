@@ -1,0 +1,24 @@
+ .active .page-link{
+    background-color: red !important;
+    border: none !important;
+    color: white !important;
+}
+
+.page-link{
+    color: red !important;
+}
+
+.category-list{
+    
+    max-height: 100px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.checkbox-list{
+    width: 90%;
+}
+.filter-div{
+    width: 60px;
+    height: 100%;
+}

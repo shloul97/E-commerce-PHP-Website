@@ -1,0 +1,74 @@
+.profile-header{
+    border-left : 1px solid red;
+    border-right : 1px solid red;
+    text-align: center;
+    
+    padding: 16px;
+    transition: 0.1s;
+}
+
+.profile-header:hover{
+    background-color: #f5f5f5;
+    cursor: pointer;
+    
+}
+
+.active-1{
+    background-color: red;
+}
+
+.active-1 h1{
+    color: #f5f5f5;
+}
+.active-1:hover{
+    background-color: red;
+}
+
+.p-header{
+    font-size: 18pt;
+    font-weight: bold;
+}
+.address-box{
+    border: 1px solid red;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.payment-img{
+    width: 170px;
+    height: 70px;
+}
+
+.p-payment{
+    font-size: 12pt;
+    color: #828282;
+}
+.paragraph{
+    margin: 0 !important;
+}
+
+.address-div{
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    margin-top: 10%;
+    background-color: var(--payment);
+    padding: 15px;
+    border-radius: 15px;
+    width: 50%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+
+.address-row{
+    position: absolute;
+}
+
+@media only screen and (max-width: 600px) {
+    .address-div{
+        width: 90%;
+    }
+}

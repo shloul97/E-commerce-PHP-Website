@@ -1,0 +1,29 @@
+:root {
+    --red: #E30914;
+    --gray: #353535;
+    --yellow: #fdcf00;
+    --green: #198754;
+    --payment: #f1f0f0 ;
+}
+
+
+.payment-div{
+    left: 0;
+    right: 0;
+    margin: auto;
+    margin-top: 20%;
+    background-color: var(--payment);
+    padding: 15px;
+    border-radius: 15px;
+    width: 95%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+a.disabled{
+    color: gray;
+    pointer-events: none;
+}
+
+.payment-row{
+    position: absolute;
+}
